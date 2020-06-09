@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:show_In="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/homeFragment"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:id="@+id/videoFragment"
+            android:title="Video"
+            android:icon="@drawable/ic_baseline_video_label_24"/>
+    </group>
+</menu>
